@@ -1,0 +1,138 @@
+Testsuite: edu.uag.iidis.scec.pruebas.AllTests
+Tests run: 9, Failures: 0, Errors: 0, Time elapsed: 7.21 sec
+------------- Standard Output ---------------
+00:43:18,457  INFO SchemaExport:98 - Running hbm2ddl schema export
+00:43:18,487  INFO SchemaExport:117 - exporting generated schema to database
+00:43:18,507  INFO SchemaExport:160 - schema export complete
+Hibernate: insert into Roles (nombre, descripcion, idRol) values (?, ?, ?)
+00:43:19,128  INFO SchemaExport:98 - Running hbm2ddl schema export
+00:43:19,128  INFO SchemaExport:117 - exporting generated schema to database
+00:43:19,138  INFO SchemaExport:160 - schema export complete
+Hibernate: insert into Usuarios (nombrePrefijo, nombreNombre, nombreApellidoPaterno, nombreApellidoMaterno, nombrePosfijo, nombreIniciales, nombreUsuario, claveAcceso, idUsuario) values (?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: insert into Usuarios (nombrePrefijo, nombreNombre, nombreApellidoPaterno, nombreApellidoMaterno, nombrePosfijo, nombreIniciales, nombreUsuario, claveAcceso, idUsuario) values (?, ?, ?, ?, ?, ?, ?, ?, ?)
+00:43:19,168  WARN JDBCExceptionReporter:38 - SQL Error: 0, SQLState: null
+00:43:19,168 ERROR JDBCExceptionReporter:46 - 
+00:43:19,188  WARN JDBCExceptionReporter:38 - SQL Error: 0, SQLState: null
+00:43:19,188 ERROR JDBCExceptionReporter:46 - 
+00:43:19,198 ERROR JDBCExceptionReporter:38 - Could not execute JDBC batch update
+java.sql.BatchUpdateException
+	at org.hsqldb.jdbc.jdbcStatement.executeBatch(Unknown Source)
+	at org.hibernate.impl.BatchingBatcher.doExecuteBatch(BatchingBatcher.java:54)
+	at org.hibernate.impl.BatcherImpl.executeBatch(BatcherImpl.java:126)
+	at org.hibernate.impl.SessionImpl.executeAll(SessionImpl.java:2421)
+	at org.hibernate.impl.SessionImpl.execute(SessionImpl.java:2371)
+	at org.hibernate.impl.SessionImpl.flush(SessionImpl.java:2240)
+	at org.hibernate.transaction.JDBCTransaction.commit(JDBCTransaction.java:61)
+	at edu.uag.iidis.scec.persistencia.hibernate.HibernateUtil.commitTransaction(HibernateUtil.java:177)
+	at edu.uag.iidis.scec.pruebas.UsuarioDAOTest.testCrearUsuarioInvalido(UsuarioDAOTest.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:324)
+	at junit.framework.TestCase.runTest(TestCase.java:154)
+	at junit.framework.TestCase.runBare(TestCase.java:127)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:118)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at junit.extensions.TestDecorator.basicRun(TestDecorator.java:22)
+	at junit.extensions.TestSetup$1.protect(TestSetup.java:19)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.extensions.TestSetup.run(TestSetup.java:23)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:289)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeInVM(JUnitTask.java:954)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:626)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:600)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:269)
+	at org.apache.tools.ant.Task.perform(Task.java:364)
+	at org.apache.tools.ant.Target.execute(Target.java:301)
+	at org.apache.tools.ant.Target.performTasks(Target.java:328)
+	at org.apache.tools.ant.Project.executeTarget(Project.java:1215)
+	at org.apache.tools.ant.Project.executeTargets(Project.java:1063)
+	at org.apache.tools.ant.Main.runBuild(Main.java:632)
+	at org.apache.tools.ant.Main.startAnt(Main.java:183)
+	at org.apache.tools.ant.launch.Launcher.run(Launcher.java:197)
+	at org.apache.tools.ant.launch.Launcher.main(Launcher.java:56)
+00:43:19,219 ERROR SessionImpl:2379 - Could not synchronize database state with session
+org.hibernate.JDBCException: Could not execute JDBC batch update
+	at org.hibernate.impl.BatcherImpl.executeBatch(BatcherImpl.java:133)
+	at org.hibernate.impl.SessionImpl.executeAll(SessionImpl.java:2421)
+	at org.hibernate.impl.SessionImpl.execute(SessionImpl.java:2371)
+	at org.hibernate.impl.SessionImpl.flush(SessionImpl.java:2240)
+	at org.hibernate.transaction.JDBCTransaction.commit(JDBCTransaction.java:61)
+	at edu.uag.iidis.scec.persistencia.hibernate.HibernateUtil.commitTransaction(HibernateUtil.java:177)
+	at edu.uag.iidis.scec.pruebas.UsuarioDAOTest.testCrearUsuarioInvalido(UsuarioDAOTest.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:324)
+	at junit.framework.TestCase.runTest(TestCase.java:154)
+	at junit.framework.TestCase.runBare(TestCase.java:127)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:118)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at junit.extensions.TestDecorator.basicRun(TestDecorator.java:22)
+	at junit.extensions.TestSetup$1.protect(TestSetup.java:19)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.extensions.TestSetup.run(TestSetup.java:23)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:289)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeInVM(JUnitTask.java:954)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:626)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:600)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:269)
+	at org.apache.tools.ant.Task.perform(Task.java:364)
+	at org.apache.tools.ant.Target.execute(Target.java:301)
+	at org.apache.tools.ant.Target.performTasks(Target.java:328)
+	at org.apache.tools.ant.Project.executeTarget(Project.java:1215)
+	at org.apache.tools.ant.Project.executeTargets(Project.java:1063)
+	at org.apache.tools.ant.Main.runBuild(Main.java:632)
+	at org.apache.tools.ant.Main.startAnt(Main.java:183)
+	at org.apache.tools.ant.launch.Launcher.run(Launcher.java:197)
+	at org.apache.tools.ant.launch.Launcher.main(Launcher.java:56)
+Caused by: java.sql.BatchUpdateException
+	at org.hsqldb.jdbc.jdbcStatement.executeBatch(Unknown Source)
+	at org.hibernate.impl.BatchingBatcher.doExecuteBatch(BatchingBatcher.java:54)
+	at org.hibernate.impl.BatcherImpl.executeBatch(BatcherImpl.java:126)
+	... 38 more
+Hibernate: select usuario0_.idUsuario as idUsuario0_, usuario0_.nombrePrefijo as nombrePr2_0_, usuario0_.nombreNombre as nombreNo3_0_, usuario0_.nombreApellidoPaterno as nombreAp4_0_, usuario0_.nombreApellidoMaterno as nombreAp5_0_, usuario0_.nombrePosfijo as nombrePo6_0_, usuario0_.nombreIniciales as nombreIn7_0_, usuario0_.nombreUsuario as nombreUs8_0_, usuario0_.claveAcceso as claveAcc9_0_ from Usuarios usuario0_ where usuario0_.idUsuario=?
+Hibernate: select roles0_.idUsuario as idUsuario__, roles0_.idRol as idRol__, rol1_.idRol as idRol0_, rol1_.nombre as nombre0_, rol1_.descripcion as descripc3_0_ from UsuarioRol roles0_ inner join Roles rol1_ on roles0_.idRol=rol1_.idRol where roles0_.idUsuario=?
+Hibernate: select this.idUsuario as idUsuario0_, this.nombrePrefijo as nombrePr2_0_, this.nombreNombre as nombreNo3_0_, this.nombreApellidoPaterno as nombreAp4_0_, this.nombreApellidoMaterno as nombreAp5_0_, this.nombrePosfijo as nombrePo6_0_, this.nombreIniciales as nombreIn7_0_, this.nombreUsuario as nombreUs8_0_, this.claveAcceso as claveAcc9_0_ from Usuarios this where (this.nombreUsuario=?)
+Hibernate: select roles0_.idUsuario as idUsuario__, roles0_.idRol as idRol__, rol1_.idRol as idRol0_, rol1_.nombre as nombre0_, rol1_.descripcion as descripc3_0_ from UsuarioRol roles0_ inner join Roles rol1_ on roles0_.idRol=rol1_.idRol where roles0_.idUsuario=?
+Hibernate: select this.idUsuario as idUsuario0_, this.nombrePrefijo as nombrePr2_0_, this.nombreNombre as nombreNo3_0_, this.nombreApellidoPaterno as nombreAp4_0_, this.nombreApellidoMaterno as nombreAp5_0_, this.nombrePosfijo as nombrePo6_0_, this.nombreIniciales as nombreIn7_0_, this.nombreUsuario as nombreUs8_0_, this.claveAcceso as claveAcc9_0_ from Usuarios this where 1=1
+Hibernate: select roles0_.idUsuario as idUsuario__, roles0_.idRol as idRol__, rol1_.idRol as idRol0_, rol1_.nombre as nombre0_, rol1_.descripcion as descripc3_0_ from UsuarioRol roles0_ inner join Roles rol1_ on roles0_.idRol=rol1_.idRol where roles0_.idUsuario=?
+Hibernate: select usuario0_.idUsuario as idUsuario0_, usuario0_.nombrePrefijo as nombrePr2_0_, usuario0_.nombreNombre as nombreNo3_0_, usuario0_.nombreApellidoPaterno as nombreAp4_0_, usuario0_.nombreApellidoMaterno as nombreAp5_0_, usuario0_.nombrePosfijo as nombrePo6_0_, usuario0_.nombreIniciales as nombreIn7_0_, usuario0_.nombreUsuario as nombreUs8_0_, usuario0_.claveAcceso as claveAcc9_0_ from Usuarios usuario0_ where usuario0_.idUsuario=?
+Hibernate: select roles0_.idUsuario as idUsuario__, roles0_.idRol as idRol__, rol1_.idRol as idRol0_, rol1_.nombre as nombre0_, rol1_.descripcion as descripc3_0_ from UsuarioRol roles0_ inner join Roles rol1_ on roles0_.idRol=rol1_.idRol where roles0_.idUsuario=?
+Hibernate: insert into Roles (nombre, descripcion, idRol) values (?, ?, ?)
+Hibernate: insert into Roles (nombre, descripcion, idRol) values (?, ?, ?)
+Hibernate: insert into UsuarioRol (idUsuario, idRol) values (?, ?)
+Hibernate: insert into UsuarioRol (idUsuario, idRol) values (?, ?)
+Hibernate: select usuario0_.idUsuario as idUsuario0_, usuario0_.nombrePrefijo as nombrePr2_0_, usuario0_.nombreNombre as nombreNo3_0_, usuario0_.nombreApellidoPaterno as nombreAp4_0_, usuario0_.nombreApellidoMaterno as nombreAp5_0_, usuario0_.nombrePosfijo as nombrePo6_0_, usuario0_.nombreIniciales as nombreIn7_0_, usuario0_.nombreUsuario as nombreUs8_0_, usuario0_.claveAcceso as claveAcc9_0_ from Usuarios usuario0_ where usuario0_.idUsuario=?
+Hibernate: select roles0_.idUsuario as idUsuario__, roles0_.idRol as idRol__, rol1_.idRol as idRol0_, rol1_.nombre as nombre0_, rol1_.descripcion as descripc3_0_ from UsuarioRol roles0_ inner join Roles rol1_ on roles0_.idRol=rol1_.idRol where roles0_.idUsuario=?
+Hibernate: select usuarios0_.idRol as idRol__, usuarios0_.idUsuario as idUsuario__, usuario1_.idUsuario as idUsuario0_, usuario1_.nombrePrefijo as nombrePr2_0_, usuario1_.nombreNombre as nombreNo3_0_, usuario1_.nombreApellidoPaterno as nombreAp4_0_, usuario1_.nombreApellidoMaterno as nombreAp5_0_, usuario1_.nombrePosfijo as nombrePo6_0_, usuario1_.nombreIniciales as nombreIn7_0_, usuario1_.nombreUsuario as nombreUs8_0_, usuario1_.claveAcceso as claveAcc9_0_ from UsuarioRol usuarios0_ inner join Usuarios usuario1_ on usuarios0_.idUsuario=usuario1_.idUsuario where usuarios0_.idRol=?
+Hibernate: select usuarios0_.idRol as idRol__, usuarios0_.idUsuario as idUsuario__, usuario1_.idUsuario as idUsuario0_, usuario1_.nombrePrefijo as nombrePr2_0_, usuario1_.nombreNombre as nombreNo3_0_, usuario1_.nombreApellidoPaterno as nombreAp4_0_, usuario1_.nombreApellidoMaterno as nombreAp5_0_, usuario1_.nombrePosfijo as nombrePo6_0_, usuario1_.nombreIniciales as nombreIn7_0_, usuario1_.nombreUsuario as nombreUs8_0_, usuario1_.claveAcceso as claveAcc9_0_ from UsuarioRol usuarios0_ inner join Usuarios usuario1_ on usuarios0_.idUsuario=usuario1_.idUsuario where usuarios0_.idRol=?
+Hibernate: select rol0_.idRol as idRol0_, rol0_.nombre as nombre0_, rol0_.descripcion as descripc3_0_ from Roles rol0_ where rol0_.idRol=?
+Hibernate: select usuarios0_.idRol as idRol__, usuarios0_.idUsuario as idUsuario__, usuario1_.idUsuario as idUsuario0_, usuario1_.nombrePrefijo as nombrePr2_0_, usuario1_.nombreNombre as nombreNo3_0_, usuario1_.nombreApellidoPaterno as nombreAp4_0_, usuario1_.nombreApellidoMaterno as nombreAp5_0_, usuario1_.nombrePosfijo as nombrePo6_0_, usuario1_.nombreIniciales as nombreIn7_0_, usuario1_.nombreUsuario as nombreUs8_0_, usuario1_.claveAcceso as claveAcc9_0_ from UsuarioRol usuarios0_ inner join Usuarios usuario1_ on usuarios0_.idUsuario=usuario1_.idUsuario where usuarios0_.idRol=?
+Hibernate: select roles0_.idUsuario as idUsuario__, roles0_.idRol as idRol__, rol1_.idRol as idRol0_, rol1_.nombre as nombre0_, rol1_.descripcion as descripc3_0_ from UsuarioRol roles0_ inner join Roles rol1_ on roles0_.idRol=rol1_.idRol where roles0_.idUsuario=?
+Hibernate: select usuarios0_.idRol as idRol__, usuarios0_.idUsuario as idUsuario__, usuario1_.idUsuario as idUsuario0_, usuario1_.nombrePrefijo as nombrePr2_0_, usuario1_.nombreNombre as nombreNo3_0_, usuario1_.nombreApellidoPaterno as nombreAp4_0_, usuario1_.nombreApellidoMaterno as nombreAp5_0_, usuario1_.nombrePosfijo as nombrePo6_0_, usuario1_.nombreIniciales as nombreIn7_0_, usuario1_.nombreUsuario as nombreUs8_0_, usuario1_.claveAcceso as claveAcc9_0_ from UsuarioRol usuarios0_ inner join Usuarios usuario1_ on usuarios0_.idUsuario=usuario1_.idUsuario where usuarios0_.idRol=?
+Hibernate: delete from UsuarioRol where idUsuario=?
+Hibernate: insert into UsuarioRol (idUsuario, idRol) values (?, ?)
+------------- ---------------- ---------------
+
+Testcase: testCrearRol took 0.58 sec
+Testcase: testCrearUsuario took 0.01 sec
+Testcase: testCrearUsuarioInvalido took 0.101 sec
+Testcase: testBuscarUsuarioPorId took 0.03 sec
+Testcase: testBuscarPorEjemplo took 0.1 sec
+Testcase: testBuscarTodos took 0.01 sec
+Testcase: testAgregarRol took 0.03 sec
+Testcase: testVerificarRol took 0.02 sec
+Testcase: testEliminarRol took 0.02 sec

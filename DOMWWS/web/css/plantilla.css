@@ -1,0 +1,70 @@
+
+
+body {
+	margin:0 0 0 0;
+}
+table.marco {
+	border-collapse:collapse;
+	background-color: #FFFFFF;
+	width:100%;
+}
+table.barraBanner {
+	border-collapse:collapse;
+	background-color:#009688;
+	color: white;
+	font-family: Segoe Print;
+	height:45px;
+	width:100%;								
+}
+a{
+	text-decoration: none;
+}
+table.barraMenu {
+	color: black;
+	background-color:#E0F2F1;
+	border-bottom:1px solid red;
+	border-top:1px solid red;
+	font-family:Cooper Black;
+	font-size:11px;
+	width:100%;				
+}
+table.barraHerramienta {
+	border-bottom:1px solid;
+	width:100%;				
+}
+td.barraIzquierda {
+	background-color:#87B1BA;
+	border-right:1px solid red;
+	height:480px;
+	vertical-align:top;
+}
+td.barraDerecha {
+	width:5px;
+	vertical-align:top;
+	visibility:visible;
+}
+table.barraIzquierdaX {
+	border-style:solid;
+	border:0px;
+	width:100%;				
+}
+table.barraDerecha {
+	background-color:#66FFCC;
+	border-style:solid;
+	border:0px;
+	width:100%;				
+}
+table.barraPie {
+	background-color:#FFFFFF;
+	border-top:1px solid red;
+	font-family:Verdana, Arial;
+        font-size:11px;
+	height:25px;
+	width:100%;				
+}
+table.barraDerechos {
+	background-color:#FFFFFF;
+	font-family:Verdana, Arial;
+        font-size:9px;
+	width:100%;				
+}

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" name="AllTests" package="edu.uag.iidis.scec.pruebas" tests="9" time="7.21">
+  
+    <properties>
+    
+      <property name="java.vendor" value="Sun Microsystems Inc."></property>
+
+          <property name="os.name" value="Windows XP"></property>
+
+          <property name="sun.boot.class.path" value="c:\sun\j2sdk1.4.2_04\jre\lib\rt.jar;c:\sun\j2sdk1.4.2_04\jre\lib\i18n.jar;c:\sun\j2sdk1.4.2_04\jre\lib\sunrsasign.jar;c:\sun\j2sdk1.4.2_04\jre\lib\jsse.jar;c:\sun\j2sdk1.4.2_04\jre\lib\jce.jar;c:\sun\j2sdk1.4.2_04\jre\lib\charsets.jar;c:\sun\j2sdk1.4.2_04\jre\classes"></property>
+
+          <property name="sun.java2d.fontpath" value=""></property>
+
+          <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."></property>
+
+          <property name="ant.home" value="c:\apache\ant161"></property>
+
+          <property name="java.runtime.version" value="1.4.2_04-b05"></property>
+
+          <property name="src.home" value="C:\datos\gosuna\proyectos\ProyectosJava\scec\scec/src"></property>
+
+          <property name="ant.file.scec" value="c:\datos\gosuna\proyectos\ProyectosJava\scec\scec\build.xml"></property>
+
+          <property name="user.name" value="gosuna"></property>
+
+          <property name="web.home" value="C:\datos\gosuna\proyectos\ProyectosJava\scec\scec/web"></property>
+
+          <property name="manager.password" value="admin"></property>
+
+          <property name="test.out.dir" value="C:\datos\gosuna\proyectos\ProyectosJava\scec\scec/testout"></property>
+
+          <property name="user.language" value="es"></property>
+
+          <property name="sun.boot.library.path" value="c:\sun\j2sdk1.4.2_04\jre\bin"></property>
+
+          <property name="docs.home" value="C:\datos\gosuna\proyectos\ProyectosJava\scec\scec/docs"></property>
+
+          <property name="ant.project.name" value="scec"></property>
+
+          <property name="java.version" value="1.4.2_04"></property>
+
+          <property name="lib.home" value="C:\datos\gosuna\proyectos\ProyectosJava\scec\scec/build/WEB-INF/lib"></property>
+
+          <property name="user.timezone" value=""></property>
+
+          <property name="sun.arch.data.model" value="32"></property>
+
+          <property name="compile.optimize" value="true"></property>
+
+          <property name="java.endorsed.dirs" value="c:\sun\j2sdk1.4.2_04\jre\lib\endorsed"></property>
+
+          <property name="sun.cpu.isalist" value="pentium i486 i386"></property>
+
+          <property name="file.encoding.pkg" value="sun.io"></property>
+
+          <property name="file.separator" value="\"></property>
+
+          <property name="java.specification.name" value="Java Platform API Specification"></property>
+
+          <property name="java.class.version" value="48.0"></property>
+
+          <property name="build.home" value="C:\datos\gosuna\proyectos\ProyectosJava\scec\scec/build"></property>
+
+          <property name="manager.username" value="admin"></property>
+
+          <property name="user.country" value="MX"></property>
+
+          <property name="java.home" value="c:\sun\j2sdk1.4.2_04\jre"></property>
+
+          <property name="java.vm.info" value="mixed mode"></property>
+
+          <property name="ant.file" value="c:\datos\gosuna\proyectos\ProyectosJava\scec\scec\build.xml"></property>
+
+          <property name="os.version" value="5.1"></property>
+
+          <property name="classes.home" value="C:\datos\gosuna\proyectos\ProyectosJava\scec\scec/build/WEB-INF/classes"></property>
+
+          <property name="path.separator" value=";"></property>
+
+          <property name="manager.url" value="http://localhost:8080/manager"></property>
+
+          <property name="java.vm.version" value="1.4.2_04-b05"></property>
+
+          <property name="java.util.prefs.PreferencesFactory" value="java.util.prefs.WindowsPreferencesFactory"></property>
+
+          <property name="user.variant" value=""></property>
+
+          <property name="ant.library.dir" value="C:\apache\ant161\lib"></property>
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"></property>
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle"></property>
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit"></property>
+
+          <property name="user.home" value="C:\Documents and Settings\gosuna"></property>
+
+          <property name="java.specification.vendor" value="Sun Microsystems Inc."></property>
+
+          <property name="app.path" value="/scec"></property>
+
+          <property name="java.library.path" value="c:\sun\j2sdk1.4.2_04\bin;.;C:\WINDOWS\System32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Archivos de programa\ATI Technologies\ATI Control Panel;C:\Archivos de programa\Archivos comunes\Adaptec Shared\System;c:\sun\j2sdk1.4.2_04\bin;C:\Archivos de programa\Rational\common;c:\apache\ant161\bin;C:\apache\maven10rc3\bin;C:\Archivos de programa\Microsoft SQL Server\80\Tools\BINN;C:\PalmSource\PODS\cygwin\bin;C:\PalmSource\PODS\PalmOSTools;C:\PalmSource\PODS\PalmOSTools\Palm OS Resource Editor;C:\Archivos de programa\Archivos comunes\Autodesk Shared\;C:\ARCHIV~1\ARCHIV~1\AUTODE~1\GIS\IMPORT~1\1.0;;C:\ARCHIV~1\ARCHIV~1\AUTODE~1"></property>
+
+          <property name="java.vendor.url" value="http://java.sun.com/"></property>
+
+          <property name="java.vm.vendor" value="Sun Microsystems Inc."></property>
+
+          <property name="java.runtime.name" value="Java(TM) 2 Runtime Environment, Standard Edition"></property>
+
+          <property name="java.class.path" value="c:\apache\ant161\lib\ant-launcher.jar;C:\apache\ant161\lib\ant-antlr.jar;C:\apache\ant161\lib\ant-apache-bsf.jar;C:\apache\ant161\lib\ant-apache-resolver.jar;C:\apache\ant161\lib\ant-commons-logging.jar;C:\apache\ant161\lib\ant-commons-net.jar;C:\apache\ant161\lib\ant-icontract.jar;C:\apache\ant161\lib\ant-jai.jar;C:\apache\ant161\lib\ant-jakarta-bcel.jar;C:\apache\ant161\lib\ant-jakarta-log4j.jar;C:\apache\ant161\lib\ant-jakarta-oro.jar;C:\apache\ant161\lib\ant-jakarta-regexp.jar;C:\apache\ant161\lib\ant-javamail.jar;C:\apache\ant161\lib\ant-jdepend.jar;C:\apache\ant161\lib\ant-jmf.jar;C:\apache\ant161\lib\ant-jsch.jar;C:\apache\ant161\lib\ant-junit.jar;C:\apache\ant161\lib\ant-launcher.jar;C:\apache\ant161\lib\ant-netrexx.jar;C:\apache\ant161\lib\ant-nodeps.jar;C:\apache\ant161\lib\ant-starteam.jar;C:\apache\ant161\lib\ant-stylebook.jar;C:\apache\ant161\lib\ant-swing.jar;C:\apache\ant161\lib\ant-trax.jar;C:\apache\ant161\lib\ant-vaj.jar;C:\apache\ant161\lib\ant-weblogic.jar;C:\apache\ant161\lib\ant-xalan1.jar;C:\apache\ant161\lib\ant-xalan2.jar;C:\apache\ant161\lib\ant-xslp.jar;C:\apache\ant161\lib\ant.jar;C:\apache\ant161\lib\catalina-ant.jar;C:\apache\ant161\lib\junit.jar;C:\apache\ant161\lib\xercesImpl.jar;C:\apache\ant161\lib\xml-apis.jar;c:\sun\j2sdk1.4.2_04\lib\tools.jar"></property>
+
+          <property name="ant.version" value="Apache Ant version 1.6.1 compiled on February 12 2004"></property>
+
+          <property name="app.name" value="scec"></property>
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification"></property>
+
+          <property name="java.vm.specification.version" value="1.0"></property>
+
+          <property name="catalina.home" value="c:/apache/tomcat50"></property>
+
+          <property name="sun.cpu.endian" value="little"></property>
+
+          <property name="sun.os.patch.level" value="Service Pack 1"></property>
+
+          <property name="compile.debug" value="true"></property>
+
+          <property name="java.io.tmpdir" value="C:\DOCUME~1\gosuna\CONFIG~1\Temp\"></property>
+
+          <property name="dist.home" value="C:\datos\gosuna\proyectos\ProyectosJava\scec\scec/dist"></property>
+
+          <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"></property>
+
+          <property name="os.arch" value="x86"></property>
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"></property>
+
+          <property name="java.ext.dirs" value="c:\sun\j2sdk1.4.2_04\jre\lib\ext"></property>
+
+          <property name="user.dir" value="c:\datos\gosuna\proyectos\ProyectosJava\scec\scec"></property>
+
+          <property name="line.separator" value=" "></property>
+
+          <property name="java.vm.name" value="Java HotSpot(TM) Client VM"></property>
+
+          <property name="app.version" value="0.1"></property>
+
+          <property name="compile.deprecation" value="false"></property>
+
+          <property name="basedir" value="C:\datos\gosuna\proyectos\ProyectosJava\scec\scec"></property>
+
+          <property name="ant.java.version" value="1.4"></property>
+
+          <property name="file.encoding" value="Cp1252"></property>
+
+          <property name="java.specification.version" value="1.4"></property>
+
+      </properties>
+
+      <testcase classname="edu.uag.iidis.scec.pruebas.RolDAOTest" name="testCrearRol" time="0.59"></testcase>
+
+      <testcase classname="edu.uag.iidis.scec.pruebas.UsuarioDAOTest" name="testCrearUsuario" time="0.01"></testcase>
+
+      <testcase classname="edu.uag.iidis.scec.pruebas.UsuarioDAOTest" name="testCrearUsuarioInvalido" time="0.101"></testcase>
+
+      <testcase classname="edu.uag.iidis.scec.pruebas.UsuarioDAOTest" name="testBuscarUsuarioPorId" time="0.03"></testcase>
+
+      <testcase classname="edu.uag.iidis.scec.pruebas.UsuarioDAOTest" name="testBuscarPorEjemplo" time="0.1"></testcase>
+
+      <testcase classname="edu.uag.iidis.scec.pruebas.UsuarioDAOTest" name="testBuscarTodos" time="0.01"></testcase>
+
+      <testcase classname="edu.uag.iidis.scec.pruebas.UsuarioDAOTest" name="testAgregarRol" time="0.03"></testcase>
+
+      <testcase classname="edu.uag.iidis.scec.pruebas.UsuarioDAOTest" name="testVerificarRol" time="0.02"></testcase>
+
+      <testcase classname="edu.uag.iidis.scec.pruebas.UsuarioDAOTest" name="testEliminarRol" time="0.02"></testcase>
+
+      <system-out><![CDATA[00:43:18,457  INFO SchemaExport:98 - Running hbm2ddl schema export
+00:43:18,487  INFO SchemaExport:117 - exporting generated schema to database
+00:43:18,507  INFO SchemaExport:160 - schema export complete
+Hibernate: insert into Roles (nombre, descripcion, idRol) values (?, ?, ?)
+00:43:19,128  INFO SchemaExport:98 - Running hbm2ddl schema export
+00:43:19,128  INFO SchemaExport:117 - exporting generated schema to database
+00:43:19,138  INFO SchemaExport:160 - schema export complete
+Hibernate: insert into Usuarios (nombrePrefijo, nombreNombre, nombreApellidoPaterno, nombreApellidoMaterno, nombrePosfijo, nombreIniciales, nombreUsuario, claveAcceso, idUsuario) values (?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: insert into Usuarios (nombrePrefijo, nombreNombre, nombreApellidoPaterno, nombreApellidoMaterno, nombrePosfijo, nombreIniciales, nombreUsuario, claveAcceso, idUsuario) values (?, ?, ?, ?, ?, ?, ?, ?, ?)
+00:43:19,168  WARN JDBCExceptionReporter:38 - SQL Error: 0, SQLState: null
+00:43:19,168 ERROR JDBCExceptionReporter:46 - 
+00:43:19,188  WARN JDBCExceptionReporter:38 - SQL Error: 0, SQLState: null
+00:43:19,188 ERROR JDBCExceptionReporter:46 - 
+00:43:19,198 ERROR JDBCExceptionReporter:38 - Could not execute JDBC batch update
+java.sql.BatchUpdateException
+	at org.hsqldb.jdbc.jdbcStatement.executeBatch(Unknown Source)
+	at org.hibernate.impl.BatchingBatcher.doExecuteBatch(BatchingBatcher.java:54)
+	at org.hibernate.impl.BatcherImpl.executeBatch(BatcherImpl.java:126)
+	at org.hibernate.impl.SessionImpl.executeAll(SessionImpl.java:2421)
+	at org.hibernate.impl.SessionImpl.execute(SessionImpl.java:2371)
+	at org.hibernate.impl.SessionImpl.flush(SessionImpl.java:2240)
+	at org.hibernate.transaction.JDBCTransaction.commit(JDBCTransaction.java:61)
+	at edu.uag.iidis.scec.persistencia.hibernate.HibernateUtil.commitTransaction(HibernateUtil.java:177)
+	at edu.uag.iidis.scec.pruebas.UsuarioDAOTest.testCrearUsuarioInvalido(UsuarioDAOTest.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:324)
+	at junit.framework.TestCase.runTest(TestCase.java:154)
+	at junit.framework.TestCase.runBare(TestCase.java:127)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:118)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at junit.extensions.TestDecorator.basicRun(TestDecorator.java:22)
+	at junit.extensions.TestSetup$1.protect(TestSetup.java:19)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.extensions.TestSetup.run(TestSetup.java:23)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:289)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeInVM(JUnitTask.java:954)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:626)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:600)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:269)
+	at org.apache.tools.ant.Task.perform(Task.java:364)
+	at org.apache.tools.ant.Target.execute(Target.java:301)
+	at org.apache.tools.ant.Target.performTasks(Target.java:328)
+	at org.apache.tools.ant.Project.executeTarget(Project.java:1215)
+	at org.apache.tools.ant.Project.executeTargets(Project.java:1063)
+	at org.apache.tools.ant.Main.runBuild(Main.java:632)
+	at org.apache.tools.ant.Main.startAnt(Main.java:183)
+	at org.apache.tools.ant.launch.Launcher.run(Launcher.java:197)
+	at org.apache.tools.ant.launch.Launcher.main(Launcher.java:56)
+00:43:19,219 ERROR SessionImpl:2379 - Could not synchronize database state with session
+org.hibernate.JDBCException: Could not execute JDBC batch update
+	at org.hibernate.impl.BatcherImpl.executeBatch(BatcherImpl.java:133)
+	at org.hibernate.impl.SessionImpl.executeAll(SessionImpl.java:2421)
+	at org.hibernate.impl.SessionImpl.execute(SessionImpl.java:2371)
+	at org.hibernate.impl.SessionImpl.flush(SessionImpl.java:2240)
+	at org.hibernate.transaction.JDBCTransaction.commit(JDBCTransaction.java:61)
+	at edu.uag.iidis.scec.persistencia.hibernate.HibernateUtil.commitTransaction(HibernateUtil.java:177)
+	at edu.uag.iidis.scec.pruebas.UsuarioDAOTest.testCrearUsuarioInvalido(UsuarioDAOTest.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:324)
+	at junit.framework.TestCase.runTest(TestCase.java:154)
+	at junit.framework.TestCase.runBare(TestCase.java:127)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:118)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at junit.extensions.TestDecorator.basicRun(TestDecorator.java:22)
+	at junit.extensions.TestSetup$1.protect(TestSetup.java:19)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.extensions.TestSetup.run(TestSetup.java:23)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:289)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.executeInVM(JUnitTask.java:954)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:626)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.execute(JUnitTask.java:600)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:269)
+	at org.apache.tools.ant.Task.perform(Task.java:364)
+	at org.apache.tools.ant.Target.execute(Target.java:301)
+	at org.apache.tools.ant.Target.performTasks(Target.java:328)
+	at org.apache.tools.ant.Project.executeTarget(Project.java:1215)
+	at org.apache.tools.ant.Project.executeTargets(Project.java:1063)
+	at org.apache.tools.ant.Main.runBuild(Main.java:632)
+	at org.apache.tools.ant.Main.startAnt(Main.java:183)
+	at org.apache.tools.ant.launch.Launcher.run(Launcher.java:197)
+	at org.apache.tools.ant.launch.Launcher.main(Launcher.java:56)
+Caused by: java.sql.BatchUpdateException
+	at org.hsqldb.jdbc.jdbcStatement.executeBatch(Unknown Source)
+	at org.hibernate.impl.BatchingBatcher.doExecuteBatch(BatchingBatcher.java:54)
+	at org.hibernate.impl.BatcherImpl.executeBatch(BatcherImpl.java:126)
+	... 38 more
+Hibernate: select usuario0_.idUsuario as idUsuario0_, usuario0_.nombrePrefijo as nombrePr2_0_, usuario0_.nombreNombre as nombreNo3_0_, usuario0_.nombreApellidoPaterno as nombreAp4_0_, usuario0_.nombreApellidoMaterno as nombreAp5_0_, usuario0_.nombrePosfijo as nombrePo6_0_, usuario0_.nombreIniciales as nombreIn7_0_, usuario0_.nombreUsuario as nombreUs8_0_, usuario0_.claveAcceso as claveAcc9_0_ from Usuarios usuario0_ where usuario0_.idUsuario=?
+Hibernate: select roles0_.idUsuario as idUsuario__, roles0_.idRol as idRol__, rol1_.idRol as idRol0_, rol1_.nombre as nombre0_, rol1_.descripcion as descripc3_0_ from UsuarioRol roles0_ inner join Roles rol1_ on roles0_.idRol=rol1_.idRol where roles0_.idUsuario=?
+Hibernate: select this.idUsuario as idUsuario0_, this.nombrePrefijo as nombrePr2_0_, this.nombreNombre as nombreNo3_0_, this.nombreApellidoPaterno as nombreAp4_0_, this.nombreApellidoMaterno as nombreAp5_0_, this.nombrePosfijo as nombrePo6_0_, this.nombreIniciales as nombreIn7_0_, this.nombreUsuario as nombreUs8_0_, this.claveAcceso as claveAcc9_0_ from Usuarios this where (this.nombreUsuario=?)
+Hibernate: select roles0_.idUsuario as idUsuario__, roles0_.idRol as idRol__, rol1_.idRol as idRol0_, rol1_.nombre as nombre0_, rol1_.descripcion as descripc3_0_ from UsuarioRol roles0_ inner join Roles rol1_ on roles0_.idRol=rol1_.idRol where roles0_.idUsuario=?
+Hibernate: select this.idUsuario as idUsuario0_, this.nombrePrefijo as nombrePr2_0_, this.nombreNombre as nombreNo3_0_, this.nombreApellidoPaterno as nombreAp4_0_, this.nombreApellidoMaterno as nombreAp5_0_, this.nombrePosfijo as nombrePo6_0_, this.nombreIniciales as nombreIn7_0_, this.nombreUsuario as nombreUs8_0_, this.claveAcceso as claveAcc9_0_ from Usuarios this where 1=1
+Hibernate: select roles0_.idUsuario as idUsuario__, roles0_.idRol as idRol__, rol1_.idRol as idRol0_, rol1_.nombre as nombre0_, rol1_.descripcion as descripc3_0_ from UsuarioRol roles0_ inner join Roles rol1_ on roles0_.idRol=rol1_.idRol where roles0_.idUsuario=?
+Hibernate: select usuario0_.idUsuario as idUsuario0_, usuario0_.nombrePrefijo as nombrePr2_0_, usuario0_.nombreNombre as nombreNo3_0_, usuario0_.nombreApellidoPaterno as nombreAp4_0_, usuario0_.nombreApellidoMaterno as nombreAp5_0_, usuario0_.nombrePosfijo as nombrePo6_0_, usuario0_.nombreIniciales as nombreIn7_0_, usuario0_.nombreUsuario as nombreUs8_0_, usuario0_.claveAcceso as claveAcc9_0_ from Usuarios usuario0_ where usuario0_.idUsuario=?
+Hibernate: select roles0_.idUsuario as idUsuario__, roles0_.idRol as idRol__, rol1_.idRol as idRol0_, rol1_.nombre as nombre0_, rol1_.descripcion as descripc3_0_ from UsuarioRol roles0_ inner join Roles rol1_ on roles0_.idRol=rol1_.idRol where roles0_.idUsuario=?
+Hibernate: insert into Roles (nombre, descripcion, idRol) values (?, ?, ?)
+Hibernate: insert into Roles (nombre, descripcion, idRol) values (?, ?, ?)
+Hibernate: insert into UsuarioRol (idUsuario, idRol) values (?, ?)
+Hibernate: insert into UsuarioRol (idUsuario, idRol) values (?, ?)
+Hibernate: select usuario0_.idUsuario as idUsuario0_, usuario0_.nombrePrefijo as nombrePr2_0_, usuario0_.nombreNombre as nombreNo3_0_, usuario0_.nombreApellidoPaterno as nombreAp4_0_, usuario0_.nombreApellidoMaterno as nombreAp5_0_, usuario0_.nombrePosfijo as nombrePo6_0_, usuario0_.nombreIniciales as nombreIn7_0_, usuario0_.nombreUsuario as nombreUs8_0_, usuario0_.claveAcceso as claveAcc9_0_ from Usuarios usuario0_ where usuario0_.idUsuario=?
+Hibernate: select roles0_.idUsuario as idUsuario__, roles0_.idRol as idRol__, rol1_.idRol as idRol0_, rol1_.nombre as nombre0_, rol1_.descripcion as descripc3_0_ from UsuarioRol roles0_ inner join Roles rol1_ on roles0_.idRol=rol1_.idRol where roles0_.idUsuario=?
+Hibernate: select usuarios0_.idRol as idRol__, usuarios0_.idUsuario as idUsuario__, usuario1_.idUsuario as idUsuario0_, usuario1_.nombrePrefijo as nombrePr2_0_, usuario1_.nombreNombre as nombreNo3_0_, usuario1_.nombreApellidoPaterno as nombreAp4_0_, usuario1_.nombreApellidoMaterno as nombreAp5_0_, usuario1_.nombrePosfijo as nombrePo6_0_, usuario1_.nombreIniciales as nombreIn7_0_, usuario1_.nombreUsuario as nombreUs8_0_, usuario1_.claveAcceso as claveAcc9_0_ from UsuarioRol usuarios0_ inner join Usuarios usuario1_ on usuarios0_.idUsuario=usuario1_.idUsuario where usuarios0_.idRol=?
+Hibernate: select usuarios0_.idRol as idRol__, usuarios0_.idUsuario as idUsuario__, usuario1_.idUsuario as idUsuario0_, usuario1_.nombrePrefijo as nombrePr2_0_, usuario1_.nombreNombre as nombreNo3_0_, usuario1_.nombreApellidoPaterno as nombreAp4_0_, usuario1_.nombreApellidoMaterno as nombreAp5_0_, usuario1_.nombrePosfijo as nombrePo6_0_, usuario1_.nombreIniciales as nombreIn7_0_, usuario1_.nombreUsuario as nombreUs8_0_, usuario1_.claveAcceso as claveAcc9_0_ from UsuarioRol usuarios0_ inner join Usuarios usuario1_ on usuarios0_.idUsuario=usuario1_.idUsuario where usuarios0_.idRol=?
+Hibernate: select rol0_.idRol as idRol0_, rol0_.nombre as nombre0_, rol0_.descripcion as descripc3_0_ from Roles rol0_ where rol0_.idRol=?
+Hibernate: select usuarios0_.idRol as idRol__, usuarios0_.idUsuario as idUsuario__, usuario1_.idUsuario as idUsuario0_, usuario1_.nombrePrefijo as nombrePr2_0_, usuario1_.nombreNombre as nombreNo3_0_, usuario1_.nombreApellidoPaterno as nombreAp4_0_, usuario1_.nombreApellidoMaterno as nombreAp5_0_, usuario1_.nombrePosfijo as nombrePo6_0_, usuario1_.nombreIniciales as nombreIn7_0_, usuario1_.nombreUsuario as nombreUs8_0_, usuario1_.claveAcceso as claveAcc9_0_ from UsuarioRol usuarios0_ inner join Usuarios usuario1_ on usuarios0_.idUsuario=usuario1_.idUsuario where usuarios0_.idRol=?
+Hibernate: select roles0_.idUsuario as idUsuario__, roles0_.idRol as idRol__, rol1_.idRol as idRol0_, rol1_.nombre as nombre0_, rol1_.descripcion as descripc3_0_ from UsuarioRol roles0_ inner join Roles rol1_ on roles0_.idRol=rol1_.idRol where roles0_.idUsuario=?
+Hibernate: select usuarios0_.idRol as idRol__, usuarios0_.idUsuario as idUsuario__, usuario1_.idUsuario as idUsuario0_, usuario1_.nombrePrefijo as nombrePr2_0_, usuario1_.nombreNombre as nombreNo3_0_, usuario1_.nombreApellidoPaterno as nombreAp4_0_, usuario1_.nombreApellidoMaterno as nombreAp5_0_, usuario1_.nombrePosfijo as nombrePo6_0_, usuario1_.nombreIniciales as nombreIn7_0_, usuario1_.nombreUsuario as nombreUs8_0_, usuario1_.claveAcceso as claveAcc9_0_ from UsuarioRol usuarios0_ inner join Usuarios usuario1_ on usuarios0_.idUsuario=usuario1_.idUsuario where usuarios0_.idRol=?
+Hibernate: delete from UsuarioRol where idUsuario=?
+Hibernate: insert into UsuarioRol (idUsuario, idRol) values (?, ?)
+]]></system-out>
+
+      <system-err></system-err>
+
+  </testsuite>
+</testsuites>

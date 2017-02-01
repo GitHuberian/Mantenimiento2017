@@ -1,0 +1,44 @@
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">  
+
+<hibernate-mapping>
+    <class name="edu.uag.iidis.scec.modelo.Recomendacion"
+           table="Recomendaciones"
+           dynamic-update="false"
+           dynamic-insert="false">
+
+        <id name="id"
+            column="id"
+            type="java.lang.Long"
+            unsaved-value="null" >
+            <generator class="increment">
+            </generator>
+        </id>
+
+        <property name="nombre"
+            column="Nombre"
+			type="java.lang.String"
+            not-null="true"/>
+
+        <property name="estado"
+        column="Estado"
+        type="java.lang.String" />
+
+        <property name="usuario"
+			column="Usuario"
+            type="java.lang.String" />
+			
+		<property name="fecha"
+			column="Fecha"
+            type="java.lang.String" />
+			
+		<property name="comentario"
+			column="Comentario"
+            type="java.lang.String"/>
+			
+		<property name="calificacion"
+			column="Calificacion"
+            type="java.lang.Long"/>
+			
+    </class>
+
+</hibernate-mapping>

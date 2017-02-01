@@ -1,0 +1,79 @@
+
+An unexpected exception has been detected in native code outside the VM.
+Unexpected Signal : EXCEPTION_ACCESS_VIOLATION (0xc0000005) occurred at PC=0x34045DE
+Function=[Unknown.]
+Library=C:\Archivos de programa\Java\j2sdk_nb\j2sdk1.4.2\jre\bin\fontmanager.dll
+
+NOTE: We are unable to locate the function name symbol for the error
+      just occurred. Please refer to release documentation for possible
+      reason and solutions.
+
+
+Current Java thread:
+	at sun.awt.font.NativeFontWrapper.registerFonts(Native Method)
+	- locked <0x141bf708> (a java.lang.Class)
+	at sun.java2d.SunGraphicsEnvironment.addPathFonts(SunGraphicsEnvironment.java:797)
+	at sun.java2d.SunGraphicsEnvironment.registerFonts(SunGraphicsEnvironment.java:640)
+	at sun.java2d.SunGraphicsEnvironment.access$200(SunGraphicsEnvironment.java:53)
+	at sun.java2d.SunGraphicsEnvironment$2.run(SunGraphicsEnvironment.java:262)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.java2d.SunGraphicsEnvironment.loadFonts(SunGraphicsEnvironment.java:256)
+	- locked <0x10527970> (a sun.awt.Win32GraphicsEnvironment)
+	at sun.java2d.SunGraphicsEnvironment.mapFontName(SunGraphicsEnvironment.java:480)
+	at java.awt.Font.initializeFont(Font.java:312)
+	at java.awt.Font.<init>(Font.java:344)
+	at org.hsqldb.util.DatabaseManager.initGUI(Unknown Source)
+	at org.hsqldb.util.DatabaseManager.main(Unknown Source)
+	at org.hsqldb.util.DatabaseManager.main(Unknown Source)
+
+Dynamic libraries:
+0x00400000 - 0x00406000 	C:\Archivos de programa\Java\j2sdk_nb\j2sdk1.4.2\jre\bin\java.exe
+0x7C910000 - 0x7C9C6000 	C:\WINDOWS\system32\ntdll.dll
+0x7C800000 - 0x7C901000 	C:\WINDOWS\system32\kernel32.dll
+0x77DA0000 - 0x77E4C000 	C:\WINDOWS\system32\ADVAPI32.dll
+0x77E50000 - 0x77EE1000 	C:\WINDOWS\system32\RPCRT4.dll
+0x77BE0000 - 0x77C38000 	C:\WINDOWS\system32\MSVCRT.dll
+0x08000000 - 0x08136000 	C:\Archivos de programa\Java\j2sdk_nb\j2sdk1.4.2\jre\bin\client\jvm.dll
+0x77D10000 - 0x77DA0000 	C:\WINDOWS\system32\USER32.dll
+0x77EF0000 - 0x77F36000 	C:\WINDOWS\system32\GDI32.dll
+0x76B00000 - 0x76B2E000 	C:\WINDOWS\system32\WINMM.dll
+0x6BD00000 - 0x6BD0D000 	C:\WINDOWS\system32\SYNCOR11.DLL
+0x10000000 - 0x10007000 	C:\Archivos de programa\Java\j2sdk_nb\j2sdk1.4.2\jre\bin\hpi.dll
+0x003E0000 - 0x003EE000 	C:\Archivos de programa\Java\j2sdk_nb\j2sdk1.4.2\jre\bin\verify.dll
+0x008A0000 - 0x008B8000 	C:\Archivos de programa\Java\j2sdk_nb\j2sdk1.4.2\jre\bin\java.dll
+0x008C0000 - 0x008CD000 	C:\Archivos de programa\Java\j2sdk_nb\j2sdk1.4.2\jre\bin\zip.dll
+0x02EB0000 - 0x02FBA000 	C:\Archivos de programa\Java\j2sdk_nb\j2sdk1.4.2\jre\bin\awt.dll
+0x72F80000 - 0x72FA6000 	C:\WINDOWS\system32\WINSPOOL.DRV
+0x76340000 - 0x7635D000 	C:\WINDOWS\system32\IMM32.dll
+0x774B0000 - 0x775EC000 	C:\WINDOWS\system32\ole32.dll
+0x033D0000 - 0x03420000 	C:\Archivos de programa\Java\j2sdk_nb\j2sdk1.4.2\jre\bin\fontmanager.dll
+0x746B0000 - 0x746FB000 	C:\WINDOWS\system32\MSCTF.dll
+0x034F0000 - 0x036CD000 	C:\Archivos de programa\Winamp\Plugins\dsp_enh.dll
+0x76360000 - 0x763AA000 	C:\WINDOWS\system32\comdlg32.dll
+0x77F40000 - 0x77FB6000 	C:\WINDOWS\system32\SHLWAPI.dll
+0x58C30000 - 0x58CC7000 	C:\WINDOWS\system32\COMCTL32.dll
+0x7C9D0000 - 0x7D1EE000 	C:\WINDOWS\system32\SHELL32.dll
+0x773A0000 - 0x774A2000 	C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.2180_x-ww_a84f1ff9\comctl32.dll
+0x76C50000 - 0x76C78000 	C:\WINDOWS\system32\imagehlp.dll
+0x5D4B0000 - 0x5D551000 	C:\WINDOWS\system32\DBGHELP.dll
+0x77BD0000 - 0x77BD8000 	C:\WINDOWS\system32\VERSION.dll
+0x76BB0000 - 0x76BBB000 	C:\WINDOWS\system32\PSAPI.DLL
+
+Heap at VM Abort:
+Heap
+ def new generation   total 576K, used 275K [0x10010000, 0x100b0000, 0x104f0000)
+  eden space 512K,  41% used [0x10010000, 0x10044d08, 0x10090000)
+  from space 64K,  99% used [0x100a0000, 0x100afff8, 0x100b0000)
+  to   space 64K,   0% used [0x10090000, 0x10090000, 0x100a0000)
+ tenured generation   total 1408K, used 994K [0x104f0000, 0x10650000, 0x14010000)
+   the space 1408K,  70% used [0x104f0000, 0x105e8928, 0x105e8a00, 0x10650000)
+ compacting perm gen  total 4096K, used 2632K [0x14010000, 0x14410000, 0x18010000)
+   the space 4096K,  64% used [0x14010000, 0x142a22f0, 0x142a2400, 0x14410000)
+
+Local Time = Fri Dec 10 14:05:29 2004
+Elapsed Time = 13
+#
+# The exception above was detected in native code outside the VM
+#
+# Java VM: Java HotSpot(TM) Client VM (1.4.2-b28 mixed mode)
+#
